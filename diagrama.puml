@@ -1,0 +1,39 @@
+@startuml
+!define RECTANGLE class
+
+RECTANGLE User {
+  - Integer id
+  - String username
+  - String email
+  - String password
+}
+
+RECTANGLE Restaurant {
+  - Integer id
+  - String name
+  - String address
+  - String foodType
+  - String openingHours
+  - String description
+}
+
+RECTANGLE Review {
+  - Integer id
+  - String content
+  - Integer rating
+  - User user
+  - Restaurant restaurant
+}
+
+RECTANGLE Favorite {
+  - Integer id
+  - User user
+  - Restaurant restaurant
+}
+
+User "1" --> "0..*" Review: writes
+Restaurant "1" --> "0..*" Review: receives
+User "1" --> "0..*" Favorite: has
+Restaurant "1" --> "0..*" Favorite: favorited
+
+@enduml
