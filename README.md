@@ -1,50 +1,52 @@
-# Welcome to your Expo app 👋
+<h1>HelpFood Frontend</h1>
+<p>Este es el repositorio del frontend del proyecto <strong>HelpFood</strong>, desarrollado como parte de la asignatura Programación 2 en la Universidad de Mendoza.</p>
+<h2>Información del Proyecto</h2>
+    <ul>
+        <li><strong>Asignatura</strong>: Programación 2</li>
+        <li><strong>Profesor</strong>: Piruzzi Fabricio</li>
+        <li><strong>Alumno</strong>: Michaux Juan Martín</li>
+        <li><strong>Año</strong>: 2024</li>
+        <li><strong>Institución</strong>: Universidad de Mendoza</li>
+    </ul>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<h2>Descripción</h2>
+    <p>HelpFood es una aplicación diseñada para facilitar la búsqueda de restaurantes que se adapten a restricciones alimenticias y preferencias personales. Este frontend fue desarrollado con <strong>React Native</strong> y <strong>Expo</strong>, y se conecta con el backend para ofrecer funcionalidades como la búsqueda de restaurantes, visualización de menús, reseñas y la gestión de restaurantes favoritos.</p>
 
-## Get started
+<h2>Características</h2>
+    <ul>
+        <li><strong>Navegación</strong>: Implementada con React Navigation para gestionar las pantallas de la aplicación.</li>
+        <li><strong>Gestión de Estado</strong>: Uso de [Context API/Redux] para el manejo de estado de la aplicación.</li>
+        <li><strong>Diseño Responsivo</strong>: Compatible con dispositivos <strong>iOS</strong> y <strong>Android</strong>.</li>
+        <li><strong>Interfaz de Usuario</strong>: Optimizada con componentes de Expo y diseño personalizado.</li>
+        <li><strong>Conexión con el Backend</strong>: Integración con el backend de HelpFood para acceder a la base de datos de restaurantes, menús y reseñas.</li>
+    </ul>
 
-1. Install dependencies
+<h2>Instalación</h2>
+    <ol>
+        <li>Clona el repositorio:
+            <pre><code>git clone &lt;repository-url&gt;</code></pre>
+        </li>
+        <li>Navega al directorio del proyecto:
+            <pre><code>cd &lt;project-folder&gt;</code></pre>
+        </li>
+        <li>Instala las dependencias:
+            <pre><code>npm install</code></pre>
+        </li>
+        <li>Ejecuta la aplicación utilizando Expo:
+            <pre><code>expo start</code></pre>
+        </li>
+    </ol>
 
-   ```bash
-   npm install
-   ```
+<h2>Tecnologías Usadas</h2>
+    <ul>
+        <li><strong>React Native</strong>: Para construir la aplicación móvil.</li>
+        <li><strong>Expo</strong>: Para facilitar el desarrollo con características como live reloading y compilación simplificada.</li>
+        <li><strong>React Navigation</strong>: Para gestionar la navegación entre las pantallas de la aplicación.</li>
+        <li><strong>Context API/Redux</strong>: [Especificar lo que utilizaste] para manejar el estado global de la aplicación.</li>
+    </ul>
 
-2. Start the app
+<h2>Capturas de Pantalla</h2>
+    <p>(Agrega imágenes o GIFs que muestren la interfaz de la aplicación)</p>
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+<h2>Licencia</h2>
+    <p>Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo <a href="LICENSE">LICENSE</a> para más detalles.</p>
