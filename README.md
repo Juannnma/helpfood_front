@@ -44,9 +44,3 @@
         <li><strong>React Navigation</strong>: Para gestionar la navegación entre las pantallas de la aplicación.</li>
         <li><strong>Context API/Redux</strong>: [Especificar lo que utilizaste] para manejar el estado global de la aplicación.</li>
     </ul>
-
-<h2>Capturas de Pantalla</h2>
-    <p>(Agrega imágenes o GIFs que muestren la interfaz de la aplicación)</p>
-
-<h2>Licencia</h2>
-    <p>Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo <a href="LICENSE">LICENSE</a> para más detalles.</p>
