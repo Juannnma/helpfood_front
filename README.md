@@ -42,5 +42,4 @@
         <li><strong>React Native</strong>: Para construir la aplicación móvil.</li>
         <li><strong>Expo</strong>: Para facilitar el desarrollo con características como live reloading y compilación simplificada.</li>
         <li><strong>React Navigation</strong>: Para gestionar la navegación entre las pantallas de la aplicación.</li>
-        <li><strong>Context API/Redux</strong>: [Especificar lo que utilizaste] para manejar el estado global de la aplicación.</li>
     </ul>
